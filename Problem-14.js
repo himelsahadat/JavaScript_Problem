@@ -3,7 +3,7 @@ const triangle = (numRows) => {
     let str = "*";
     let space = " ";
     console.log(space.repeat(numRows - i) + str.repeat(i));
-  }
+  } 
 };
 
 triangle(5);
